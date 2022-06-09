@@ -3,6 +3,12 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind&family=IBM+Plex+Sans:wght@500;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
     <title>Denis Novik</title>
 </head>
 
@@ -20,52 +26,105 @@
     <hr>
 
     <header class="site-name" id="section1">
-
+<div>
         <h1>Denis Novik</h1>
-
-        <img src="/images/denis-novik.jpg" alt="photo of Denis Novik">
+        <p><img src="/images/denis-novik.jpg" alt="photo of Denis Novik"></p>
+    </div>
     </header>
-
+<main>
     <section id="section2">
-        <h2>About me</h2>
+        <div>
+            <h2>About me</h2>
 
-        <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
-        <p>I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.</p>
-        <p>Ready to implement excellent projects<br>with wonderful people.</p>
-
+            <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.
+            </p>
+            <p>I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects<br>with wonderful people.</p>
+        </div>
     </section>
 
     <section id="section3">
         <h2>Skills</h2>
         <p>I work in such programs as</p>
-        <img src="/images/Vector.png" alt="Adobe Photoshop">
-        <img src="/images/Vector (1).png" alt="Adobe Illustrator">
-        <img src="/images/Vector (3).png" alt="Adobe After Effects">
-        <img src="/images/Group.png" alt="Figma">
+        <ul>
+            <li>
+                <div>
+                    <img id= ps-logo src="/images/Vector.png" alt="Adobe Photoshop">
+                    <ul>
+                        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+            </li>
+            <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+            <li><img class="star" src="/images/Vector (5).png" alt="star"></li>
+            <li><img class="star" src="/images/Vector (5).png" alt="star"></li>
+            <li><img class="star" src="/images/Vector (5).png" alt="star"></li>
 
+        </ul>
+        </div>
+        </li>
+        <li>
+            <div>
+                <img id="ai-logo" src="/images/Vector (1).png" alt="Adobe Illustrator">
+                <ul>
+                    <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        </li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (5).png" alt="star"></li>
+        <li><img class="star" src="/images/Vector (5).png" alt="star"></li>
+        </ul>
+        </div>
+        </li>
+        <li>
+            <div>
+                <img id="ae-logo" src="/images/Vector (3).png" alt="Adobe After Effects">
+                <ul>
+                    <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        </li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (5).png" alt="star"></li>
+        </ul>
+        </div>
+        </li>
+
+        <li>
+            <div>
+                <img id="figma-logo" src="/images/Group.png" alt="Figma">
+                <ul>
+                    <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        </li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        <li><img class="star" src="/images/Vector (4).png" alt="bold star"></li>
+        </ul>
+        </div>
+        </li>
+        </ul>
     </section>
 
     <section id="section4">
         <h2>Portfolio</h2>
-        <img src="Слой 8.png" alt="example of the workshop - Women man campaign sale">
-        <h6>Online fashion store<br>
-            Homepage</h6>
+        <img src="/images/Слой 8.png" alt="example of the workshop - Women man campaign sale">
+        <h6>Online fashion store-</h6> 
+            <h6>Homepage</h6> 
     </section>
 
-    <section><img src="/images/reebok_web.png" alt="example of the workshop - Reebook Store - Concept">
+    <section id="section7"><img src="/images/reebok_web.png" alt="example of the workshop - Reebook Store - Concept">
         <h6>Reebook Store - Concept</h6>
     </section>
-    <section><img src="/images/reebok_web (1).png" alt="Braun Landing Page - Concept">
+    <section id="section8"><img src="/images/reebok_web (1).png" alt="Braun Landing Page - Concept">
         <h6>Braun Landing Page - Concept</h6>
 
     </section>
-
+</main>
     <footer id="section5">
-        <h2>Contacts</h2>
+       <div> <h2>Contacts</h2>
         <p>Want to know more or just chat?
             <br>You are welcome!
         </p>
-        <h4>Send a message</h4>
+        <button id="sendbotton">Send message</button>
         <nav>
             <ul>
                 <li><a href="https://ua.linkedin.com/" _blank><img
@@ -81,8 +140,9 @@
             </ul>
 
         </nav>
-        <p>Like me on<br>
-            LinkedIn, Instagram, Behance,<br> Dribble</p>
+        <section id="section9">Like me on<br>
+            LinkedIn, Instagram, Behance,<br> Dribble</section>
+        </div>
     </footer>
 
 
