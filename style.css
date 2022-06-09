@@ -1,0 +1,67 @@
+
+body {align-content: center;
+       margin left: 25%;
+margin right: 25%
+}
+
+nav {
+    width: 960 px;
+    margin: 0 auto;
+    
+    width: 1445px;
+    align: center;
+    
+}
+
+nav:before {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    text-align: center;
+    align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    box-align: center;
+
+}
+
+ul li {
+    float: left;
+
+
+}
+
+ul li a {
+    color: black;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+ul li a:hover {
+    background: whitesmoke;
+
+}
+
+
+nav ul {display: inline-block;
+}
+h4 {text-align: center;}
+nav ul li {
+    
+}
+ .site-name h1 p {text-align: center;}
